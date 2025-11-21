@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Naukri Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Profile Update(failed)">
+    <classes>
+      <class name="com.example.naukri.NaukriProfileUpdateTest">
+        <methods>
+          <include name="updateResumeHeadline"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="onFailure"/>
+        </methods>
+      </class> <!-- com.example.naukri.NaukriProfileUpdateTest -->
+    </classes>
+  </test> <!-- Profile Update(failed) -->
+</suite> <!-- Failed suite [Naukri Suite] -->
