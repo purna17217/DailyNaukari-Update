@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/naukri-automation.git'
+                    url: 'https://github.com/purna17217/DailyNaukari-Update'
             }
         }
 
